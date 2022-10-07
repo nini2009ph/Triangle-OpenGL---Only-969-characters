@@ -1,7 +1,5 @@
 # About
 I made a triangle in OpenGl with only 969 characters of code! =D
-# Result:
-![](triangle.png)
 # Code:
 ```cpp
 #include <GL/glew.h>
@@ -17,3 +15,5 @@ glEnableVertexAttribArray(0);glVertexAttribPointer(0,2,0x1406,0,8,0);
 while(!glfwWindowShouldClose(c)){glClear(0x00004000);glUseProgram(f);glDrawArrays(0x0004,0,3);glfwSwapBuffers(c);glfwPollEvents();}
 glDeleteProgram(f);glDeleteBuffers(1,&h);glfwDestroyWindow(c);glfwTerminate();}
 ```
+# Result:
+![](triangle.png)
